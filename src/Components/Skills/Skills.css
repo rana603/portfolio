@@ -1,0 +1,153 @@
+.tech-icons {
+  color: black;
+}
+.skills_title{
+  text-align: center;
+}
+.skills_subtitle{
+  text-align: center;
+  margin-bottom: var(--mb-2);
+}
+
+.Skills-heading {
+  /* color: black; */
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+
+}
+
+.tech {
+  justify-content: center;
+  padding-Bottom: 40px;
+  display: grid;
+  grid-template-columns: repeat(5, 2fr);
+  width: 55%;
+  margin: auto;
+}
+
+.tech-icons>h6 {
+  font-size: var(--small-font-size);
+}
+
+/* .techmain {
+  width: 60%;
+  margin: auto;
+} */
+
+.Express-Icon {
+  width: 80px;
+  height: 65px;
+}
+
+.about-section {
+  position: relative !important;
+  padding-top: 15px !important;
+  padding-bottom: 20px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
+}
+
+.Imagg {
+  margin-top: 30px;
+}
+
+.tech-icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding: 10px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+}
+
+@media (max-width: 767px) {
+  .tech-icons {
+    margin: 10px !important;
+  }
+
+  .Imagg {
+    margin-top: 5px;
+  }
+}
+
+.tech-icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(224, 101, 148, 0.883) !important;
+}
+
+.tech-icon-images {
+  padding: 20px !important;
+  line-height: 1.6 !important;
+}
+
+.quote-card-view {
+  border: none !important;
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.about-activity {
+  list-style: none !important;
+  text-align: left !important;
+  padding-left: 1px !important;
+}
+
+@media (max-width: 767px) {
+  .about-img {
+    padding-top: 0 !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .tech {
+    /* justify-content: center; */
+    /* padding-Bottom: 40px; */
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    width: 68%;
+    margin: auto;
+  }
+
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  .tech {
+    /* justify-content: center; */
+    padding-Bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    width: 75%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .tech {
+    /* justify-content: center; */
+    padding-Bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .tech {
+    /* justify-content: center; */
+    padding-Bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    width: 100%;
+    margin: auto;
+  }
+}
