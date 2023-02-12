@@ -13,8 +13,8 @@ function WorksItem({ item }) {
                 <b>Tech Stack</b> - {item.Tech}
               </p>
            <div className='work_link'>
-            <a href={item.link} className='work_button'><i style={{ color: darkMode ? "#fff" : "#000"  }}  className="bx bx-link"></i></a>
-            <a href={item.github} className='work_button'> <i style={{ color: darkMode ? "#fff" : "#000" }}  className="bx bxl-github"></i></a>
+            <a target="_blank" href={item.link} className='work_button'><i style={{ color: darkMode ? "#fff" : "#000"  }}  className="bx bx-link"></i></a>
+            <a target="_blank" href={item.github} className='work_button'> <i style={{ color: darkMode ? "#fff" : "#000" }}  className="bx bxl-github"></i></a>
             </div>
         </div>
     )

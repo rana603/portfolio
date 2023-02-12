@@ -56,6 +56,10 @@ const Skills = () => {
           <DiNodejs /><h6>NodeJS</h6>
         </div>
         <div className="tech-icons" style={{ color: darkMode ? "#fff" : "#000" }}>
+          <SiExpress/>
+          <h6>ExpressJS</h6>
+        </div>
+        <div className="tech-icons" style={{ color: darkMode ? "#fff" : "#000" }}>
           <SiJava/> <h6>Java</h6>
         </div>
         <div className="tech-icons" style={{ color: darkMode ? "#fff" : "#000" }}>
@@ -65,21 +69,14 @@ const Skills = () => {
           <SiPostman/> <h6>Postman</h6>
         </div>
         <div className="tech-icons" style={{ color: darkMode ? "#fff" : "#000" }}>
-          <SiExpress/>
-          <h6>ExpressJS</h6>
-        </div>
-
-        <div className="tech-icons" style={{ color: darkMode ? "#fff" : "#000" }}>
-          <DiGit /><h6>Git</h6>
-        </div>
-
-
-        <div className="tech-icons" style={{ color: darkMode ? "#fff" : "#000" }}>
           <DiNpm /><h6>Npm </h6>
         </div>
 
         <div className="tech-icons" style={{ color: darkMode ? "#fff" : "#000" }}>
           <DiBootstrap /><h6>Bootstrap</h6>
+        </div>
+        <div className="tech-icons" style={{ color: darkMode ? "#fff" : "#000" }}>
+          <DiGit /><h6>Git</h6>
         </div>
 
       </div>
