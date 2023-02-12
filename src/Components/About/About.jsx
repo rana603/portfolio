@@ -20,7 +20,6 @@ function About() {
                 <div className='about_data'>
 
                     <p className='about_description'>Hi folks | Meet me !! <br />
-                        {/* I am <span className="purple"> Gautam Singh </span> */}
                         I always try to learn new things about anything and everything.
                         My biggest strength is my self-confidence which keeps me motivated to take any challenge ahead.
                         currently, i am looking forward to working in a
